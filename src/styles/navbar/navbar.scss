@@ -57,3 +57,120 @@
   font-size: 1.5rem;
   color: var(--dark-grey);
 }
+
+.navigation {
+  @include flex-column();
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 8rem;
+  position: fixed;
+  width: 40rem;
+  height: 100%;
+  background: linear-gradient(to top, rgba(34, 32, 41, 1), rgba(34, 32, 41, 0.8)), url("/public/img/nav-bg.jpeg") center no-repeat;
+  background-size: cover;
+}
+
+.navigation-heading {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  color: var(--orange);
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.navigation-search-input {
+  width: 30rem;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.6rem;
+  color: var(--orange);
+  letter-spacing: 0.1rem;
+  outline: none;
+  border: 0.1rem solid var(--dark-grey);
+  border-radius: 10rem;
+  transition: background-color 0.3s;
+
+  &:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+
+.navigation-search {
+  position: relative;
+  
+  .navigation-search-btn {
+    border: none;
+    background-color: transparent;
+    color: var(--orange);
+    font-size: 1.7rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.navigation-list {
+  @include flex-column();
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  height: 28rem;
+
+  .navigation-item {
+    position: relative;
+  }
+
+  .navigation-link {
+    color: var(--white);
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--orange);
+    }
+
+    &::before {
+      content: '';
+      width: 0rem;
+      height: 0.1rem;
+      background-color: var(--orange);
+      position: absolute;
+      top: 1rem;
+      left: -4rem;
+      transition: width 0.5s cubic-bezier(1, 0, 0, 1);
+    }
+
+    &::after {
+      content: '';
+      width: 0rem;
+      height: 0.1rem;
+      background-color: var(--orange);
+      position: absolute;
+      top: 1rem;
+      right: -4rem;
+      transition: width 0.5s cubic-bezier(1, 0, 0, 1);
+    }
+    
+    &:hover::before, 
+    &:hover::after {
+      width: 3rem;
+    }   
+  }
+}
+
+.copyright {
+  color: var(--white);
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
