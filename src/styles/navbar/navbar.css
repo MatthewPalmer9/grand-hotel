@@ -1,0 +1,77 @@
+.sidebar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 8rem;
+  background-color: var(--white);
+  position: fixed;
+}
+
+.menu-icon {
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+.menu-icon .line {
+  height: .2rem;
+  width: 2.5rem;
+  background-color: var(--black);
+  margin-bottom: 0.6rem;
+}
+
+.menu-icon .line-1, .menu-icon .line-3 {
+  width: 1.8rem;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+
+.menu-icon:hover .line {
+  width: 2.5rem;
+}
+
+.social-icons-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  height: 25rem;
+}
+
+.social-icons-list .social-link {
+  font-size: 2rem;
+  color: var(--grey);
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.social-icons-list .social-link:hover {
+  color: var(--orange);
+}
+
+.year {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: var(--dark-grey);
+}
+/*# sourceMappingURL=navbar.css.map */

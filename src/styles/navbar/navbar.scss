@@ -1,0 +1,59 @@
+@mixin flex-column() {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  @include flex-column();
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 8rem;
+  background-color: var(--white);
+  position: fixed;
+}
+
+.menu-icon {
+  margin-top: 3rem;
+  cursor: pointer;
+
+  .line {
+    height: .2rem;
+    width: 2.5rem;
+    background-color: var(--black);
+    margin-bottom: 0.6rem;
+  }
+  
+  .line-1, .line-3 {
+    width: 1.8rem;
+    transition: width 0.3s;
+  }
+  
+  &:hover .line {
+    width: 2.5rem;
+  }
+}
+
+.social-icons-list {
+  @include flex-column();
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  height: 25rem;
+
+  .social-link {
+    font-size: 2rem;
+    color: var(--grey);
+    transition: color 0.3s;
+
+    &:hover {
+      color: var(--orange);
+    }
+  }
+}
+
+.year {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: var(--dark-grey);
+}
