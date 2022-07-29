@@ -11,6 +11,7 @@
   width: 8rem;
   background-color: var(--white);
   position: fixed;
+  z-index: 2;
 }
 
 .menu-icon {
@@ -26,7 +27,7 @@
   
   .line-1, .line-3 {
     width: 1.8rem;
-    transition: width 0.3s;
+    transition: all 0.4s;
   }
   
   &:hover .line {
@@ -62,12 +63,14 @@
   @include flex-column();
   justify-content: space-between;
   align-items: center;
-  margin-left: 8rem;
+  left: -32rem;
   position: fixed;
   width: 40rem;
   height: 100%;
   background: linear-gradient(to top, rgba(34, 32, 41, 1), rgba(34, 32, 41, 0.8)), url("/public/img/nav-bg.jpeg") center no-repeat;
   background-size: cover;
+  z-index: 1;
+  transition: left 0.5s;
 }
 
 .navigation-heading {
@@ -173,4 +176,22 @@
   color: var(--white);
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
+}
+
+.checkbox:checked ~ .navigation {
+  left: 8rem;
+}
+
+.checkbox:checked ~ .sidebar .line-1 {
+  transform: rotate(-405deg) translate(-0.5rem, 0.6rem);
+  width: 2.5rem;
+}
+
+.checkbox:checked ~ .sidebar .line-2 {
+  opacity: 0;
+}
+
+.checkbox:checked ~ .sidebar .line-3 {
+  transform: rotate(405deg) translate(-0.5rem, -0.6rem);
+  width: 2.5rem;
 }
