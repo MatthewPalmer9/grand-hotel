@@ -17,22 +17,22 @@ export default function Navbar() {
 
         <ul className="social-icons-list">
           <li>
-            <a href="#" className="social-link">
+            <a href="/" className="social-link">
               <i className="fab fa-facebook-f"></i>
             </a>
           </li>
           <li>
-            <a href="#" className="social-link">
+            <a href="/" className="social-link">
               <i className="fab fa-twitter"></i>
             </a>
           </li>
           <li>
-            <a href="#" className="social-link">
+            <a href="/" className="social-link">
               <i className="fab fa-google-plus-g"></i>
             </a>
           </li>
           <li>
-            <a href="#" className="social-link">
+            <a href="/" className="social-link">
               <i className="fab fa-instagram"></i>
             </a>
           </li>
@@ -61,22 +61,22 @@ export default function Navbar() {
 
         <ul className="navigation-list">
           <li className="navigation-item">
-            <a href="#" className="navigation-link">Home</a>
+            <a href="/" className="navigation-link">Home</a>
           </li>
           <li className="navigation-item">
-            <a href="#" className="navigation-link">About Us</a>
+            <a href="/" className="navigation-link">About Us</a>
           </li>
           <li className="navigation-item">
-            <a href="#" className="navigation-link">Rooms</a>
+            <a href="/" className="navigation-link">Rooms</a>
           </li>
           <li className="navigation-item">
-            <a href="#" className="navigation-link">Events</a>
+            <a href="/" className="navigation-link">Events</a>
           </li>
           <li className="navigation-item">
-            <a href="#" className="navigation-link">Customers</a>
+            <a href="/" className="navigation-link">Customers</a>
           </li>
           <li className="navigation-item">
-            <a href="#" className="navigation-link">Contact</a>
+            <a href="/" className="navigation-link">Contact</a>
           </li>
         </ul>
 
