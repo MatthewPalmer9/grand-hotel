@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: space-between;
   height: 100%;
-  width: 8rem;
+  width: 6rem;
   background-color: var(--white);
   position: fixed;
   z-index: 2;
@@ -56,7 +56,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  left: -32rem;
+  left: -34rem;
   position: fixed;
   width: 40rem;
   height: 100%;
