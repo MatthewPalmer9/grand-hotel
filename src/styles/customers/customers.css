@@ -1,0 +1,50 @@
+.customers {
+  margin-left: 8rem;
+  padding-bottom: 6.6rem;
+  background-color: var(--false-grey);
+}
+.customers .customers-paragraph {
+  font-size: 1.6rem;
+  color: var(--white);
+  width: 50%;
+  margin: 2.4rem auto 8rem auto;
+  text-align: center;
+}
+
+.customers-card-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+.customers-card-wrapper .customer-card {
+  display: flex;
+  background-color: var(--white);
+  width: 60rem;
+  height: 16rem;
+}
+.customers-card-wrapper .customer-card .customer-image-wrapper {
+  margin: auto 0;
+}
+.customers-card-wrapper .customer-card .customer-image-wrapper .customer-image {
+  width: 20rem;
+  margin-left: -1.6rem;
+}
+
+.customer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 2.4rem;
+}
+.customer-info .customer-full-name {
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+.customer-info .customer-paragraph-1 {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--dark-orange);
+}
+.customer-info .customer-paragraph-2 {
+  font-size: 1.2rem;
+  font-style: italic;
+}/*# sourceMappingURL=customers.css.map */

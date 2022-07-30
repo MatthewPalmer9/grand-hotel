@@ -18,10 +18,10 @@ export default function About() {
       </div>
 
       <div className="about-us-images">
-        <img src="/img/about-us-img-1.jpeg" alt="" className="image image-1"/>
-        <img src="/img/about-us-img-2.jpeg" alt="" className="image image-2"/>
-        <img src="/img/about-us-img-3.jpeg" alt="" className="image image-3"/>
-        <img src="/img/about-us-img-4.jpeg" alt="" className="image image-4"/>
+        <img src="/img/about-us-img-1.jpeg" alt="hotel room" className="image image-1"/>
+        <img src="/img/about-us-img-2.jpeg" alt="hotel room" className="image image-2"/>
+        <img src="/img/about-us-img-3.jpeg" alt="hotel pool" className="image image-3"/>
+        <img src="/img/about-us-img-4.jpeg" alt="hotel room" className="image image-4"/>
       </div>
     </section>
   )

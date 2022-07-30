@@ -1,0 +1,128 @@
+@import "../common/common";
+
+.common-header {
+  padding: 5rem;
+  text-align: center;
+  color: var(--dark-orange);
+
+  .underline .big-underline {
+    margin: auto;
+  }
+}
+
+.common-heading {
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2.2rem;
+}
+
+.rooms {
+  margin-left: 8rem;
+}
+
+.rooms-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .rooms-btn-wrapper {
+    text-align: center;
+
+    .rooms-btn {
+      width: 24rem;
+      padding: 1.6rem 1rem;
+      margin: 4.4rem 0;
+      background-color: transparent;
+      text-transform: uppercase;
+      color: var(--orange);
+      border: 0.2rem solid var(--orange);
+      outline: none;
+      cursor: pointer;
+      box-shadow: 0 1.6rem 6rem rgba(0, 0, 0, 0.2);
+      transition: all 0.2s;
+
+      &:hover {
+        color: var(--white);
+        background-color: var(--orange);
+      }
+    }
+  }
+}
+
+.room-card {
+  width: 60rem;
+  margin: 5rem;
+  background-color: var(--false-grey);
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.1);
+
+  .room-card-content {
+    color: var(--white);
+    padding: 2rem;
+
+    .room-card-flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 2rem;
+    }
+
+    .room-card-heading {
+      margin-bottom: 1.6rem;
+      font-size: 3.4rem;
+      font-weight: 300;
+    }
+
+    .room-card-paragraph {
+      font-size: 1.6rem;
+      color: var(--grey);
+      line-height: 2.4rem;
+      letter-spacing: 0.1rem;
+    }
+
+    .room-price {
+      font-size: 5rem;
+      font-weight: 300;
+      text-align: right;
+      letter-spacing: -0.1rem;
+
+      &::first-letter {
+        font-size: 3.2rem;
+        color: var(--orange);
+        margin: 0 0.6rem;
+      }
+    }
+
+    .room-card-btn {
+      width: 16rem;
+      padding: 1.6rem 1.2rem;
+      font-family: 'Monserrat', sans-serif;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      color: var(--orange);
+      background-color: transparent;
+      border: 0.1rem solid var(--orange);
+      border-radius: 10rem;
+      outline: none;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      .btn-arrow {
+        margin-left: 0.5rem;
+        transition: margin-left 0.4s;
+      }
+
+      &:hover {
+        background-color: rgba(222, 170, 134, 0.2);
+      }
+    
+      &:hover .btn-arrow {
+        margin-left: 1.6rem;
+      } 
+    }
+  }
+}
+
+.room-image {
+  width: 100%;
+}
