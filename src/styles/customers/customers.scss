@@ -23,7 +23,7 @@
   .customer-card {
     display: flex;
     background-color: var(--white);
-    width: 60rem;
+    max-width: 80%;
     height: 16rem;
 
     .customer-image-wrapper {

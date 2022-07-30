@@ -39,6 +39,7 @@
   margin-bottom: 0.2rem;
   -webkit-animation: anim 2s;
           animation: anim 2s;
+  text-align: center;
 }
 
 .banner-paragraph {

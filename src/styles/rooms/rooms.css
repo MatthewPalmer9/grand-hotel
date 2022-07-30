@@ -45,7 +45,7 @@
 }
 
 .room-card {
-  width: 60rem;
+  max-width: 70%;
   margin: 5rem;
   background-color: var(--false-grey);
   box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.1);
