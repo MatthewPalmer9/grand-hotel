@@ -1,12 +1,8 @@
-@mixin flex-column() {
-  display: flex;
-  flex-direction: column;
-}
+@import "../common/common";
 
 .sidebar {
   @include flex-column();
   justify-content: space-between;
-  align-items: center;
   height: 100%;
   width: 8rem;
   background-color: var(--white);
@@ -38,7 +34,6 @@
 .social-icons-list {
   @include flex-column();
   justify-content: space-evenly;
-  align-items: center;
   list-style: none;
   height: 25rem;
 
@@ -62,7 +57,6 @@
 .navigation {
   @include flex-column();
   justify-content: space-between;
-  align-items: center;
   left: -32rem;
   position: fixed;
   width: 40rem;
@@ -123,7 +117,6 @@
 .navigation-list {
   @include flex-column();
   justify-content: space-between;
-  align-items: center;
   list-style: none;
   height: 28rem;
 
