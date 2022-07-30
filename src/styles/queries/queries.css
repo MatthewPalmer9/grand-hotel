@@ -3,12 +3,18 @@
     flex-direction: column;
     align-items: center;
   }
+  .room-card {
+    max-width: 80%;
+  }
 }
 @media (max-width: 89em) {
   .customers-card-wrapper {
     flex-direction: column;
     align-items: center;
     gap: 4.4rem;
+  }
+  .customer-card-wrapper .customer-card {
+    max-width: 85%;
   }
   .footer .main-part {
     display: grid;

@@ -19,8 +19,8 @@
 .customers-card-wrapper .customer-card {
   display: flex;
   background-color: var(--white);
-  max-width: 85%;
-  height: 18rem;
+  width: 60rem;
+  height: 16rem;
 }
 .customers-card-wrapper .customer-card .customer-image-wrapper {
   margin: auto 0;
