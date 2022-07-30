@@ -7,7 +7,7 @@ export default function Navbar() {
       <input type="checkbox" className="checkbox" id="click" hidden />
 
       <div className="sidebar">
-        <label for="click">
+        <label htmlFor="click">
           <div className="menu-icon">
             <div className="line line-1"></div>
             <div className="line line-2"></div>
