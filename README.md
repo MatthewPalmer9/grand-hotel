@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# Grand Hotel &mdash; A pseudo-luxury hotel website
+Make your life luxurious. At Grand Hotel, embrace the royal R&R experience you deserve!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Where can I see a demo?
+This project is hosted live [at this link](https://grand-hotel-silk.vercel.app/).
 
-## Available Scripts
+## Want to save time? Let me help you find what you're looking for.
+- Interested code architecture?
+  - **SCSS/CSS:** Instead of importing a bunch of CSS files and cluttering the top of a component file, this application uses `styles/index.js`. All styles are accessed from that directory, which are then imported at the top level of the application. [See the file setup](https://github.com/MatthewPalmer9/grand-hotel/tree/master/src/styles) | [See the top level import (At Line 3)](https://github.com/MatthewPalmer9/grand-hotel/blob/master/src/index.js)
+  - **Components:** All components and subcomponents exist at `src/components`. [See components structure](https://github.com/MatthewPalmer9/grand-hotel/tree/master/src/components)
 
-In the project directory, you can run:
+- Interested in cross-browser functionality?
+  - **Smooth Scroll**: The property which handles smooth scrolling in CSS isn't supported by all browsers. However, this problem is solved by using JavaScript. [See how I used it here](https://github.com/MatthewPalmer9/grand-hotel/blob/master/src/App.js)
 
-### `npm start`
+- Interested in design decisions?
+  - **Device Scaling**: There's 3 different ways to design responsively using media queries. The first method is by using absolute measurements, such as literal pixels (BAD!). The second involves understanding screen PPI (pixels per inch), setting `font-size: 62.5%`, and measuring almost EVERYTHING in rem units. This allows an app to scale to any device. [See here (Line 19)](https://github.com/MatthewPalmer9/grand-hotel/blob/master/src/styles/global/global.scss)
+  - **Fibonacci Sequence**: Developers often get hung up on what units to use when making design decisions. To save time, I use the Fibonacci Sequence `..., 2, 3, 5, 8, 13, 21, 34, ... etc.` as my default choice of measurement. These values are changed when polishing up the design, but generally you can expect me to have a method and reason for my pattern of development.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  # Contact
+  - Connect with me on [LinkedIn](https://linkedin.com/in/mattpdev)!
+  - **Email:** matthewpalmer9@outlook.com
+  - **Online Resume:** [Matthew Palmer's Resume](https://docs.google.com/document/d/1-4BHZ96uD8QJ2SkTX21MXHgcdytroYjalObEu8Azp_o)
