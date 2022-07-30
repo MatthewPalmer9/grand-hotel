@@ -1,15 +1,18 @@
 @import "../common/common";
 
 .footer {
-  margin-left: 8rem;
+  display: flex;
+  flex-direction: column;
   padding-bottom: 2.4rem;
   background-color: var(--black);
+  width: 100%;
 
   .main-part {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: var(--false-grey);
     padding: 4.4rem;
+    width: 100%;
 
     .contact p {
       font-size: 1.6rem;
@@ -53,6 +56,7 @@
     .copyright-text {
       font-size: 1.2rem;
       color: var(--grey);
+      margin-left: 8rem;
     }
 
     .text-right {
@@ -115,8 +119,8 @@
   max-width: 44rem;
 
   .gallery-images {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
     .image-wrapper {
       width: 12rem;

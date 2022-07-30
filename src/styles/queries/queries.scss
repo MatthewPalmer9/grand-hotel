@@ -1,0 +1,121 @@
+@media (max-width: 93.5em) {
+  .rooms-cards-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 89em) {
+  .customers-card-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 4.4rem;
+  }
+
+  .footer .main-part {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 16rem;
+  }
+}
+
+@media (max-width: 74em) {
+  .about {
+    flex-direction: column;
+
+    .about-us-images {
+      margin-top: -5.6rem;
+    }
+
+    .about-us-content, .about-us-images {
+      margin-bottom: 24rem;
+    }
+  }
+
+  .footer .main-part {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-list {
+    margin-top: -1.6rem;
+  }
+
+  .footer .main-part .contact p {
+    margin-top: -1.6rem;
+  }
+
+  .footer-heading {
+    margin: 2.4rem 0 3.2rem;
+  }
+
+  .footer-heading:last-of-type {
+    margin: 3.2rem 0 3.2rem;
+  }
+}
+
+@media (max-width: 70em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 52.75em) {
+  html {
+    font-size: 50%;
+  }
+
+  .footer .main-part {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner-heading {
+    font-size: 5.6rem;
+  }
+
+  .banner-paragraph {
+    font-size: 3.6rem;
+  }
+
+  .social-icons-list .social-link {
+    font-size: 2.8rem;
+  }
+
+  .sub-heading {
+    font-size: 4.4rem;
+  }
+
+  .about-us-paragraph {
+    font-size: 2.4rem;
+  }
+
+  .about-us-button {
+    width: 24rem;
+    padding: 1.2rem;
+    font-size: 2.4rem;
+  }
+
+  .room-card .room-card-content .room-card-btn {
+    font-size: 1.6rem;
+  }
+
+  .customer-info .customer-paragraph-2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+@media (max-width: 33em) {
+  html {
+    font-size: 37.5%;
+  }
+}

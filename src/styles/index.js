@@ -5,3 +5,4 @@ import './header/header.css';
 import './navbar/navbar.css';
 import './rooms/rooms.css';
 import './footer/footer.css';
+import './queries/queries.css';
