@@ -3,7 +3,7 @@ import RoomCard from "./RoomCard";
 
 export default function Rooms() {
   return (
-    <section className="rooms">
+    <section id="rooms" className="rooms">
       <CommonHeader title="Rooms In Grand Hotel" />
 
       <div className="rooms-cards-wrapper">

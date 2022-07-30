@@ -4,7 +4,7 @@ export default function Footer() {
   const date = new Date().getFullYear();
 
   return (
-    <footer className="footer">
+    <footer id="contact" className="footer">
       <div className="main-part">
         <div className="footer-list-wrapper">
           <h3 className="footer-heading">Grand Hotel</h3>
@@ -25,22 +25,19 @@ export default function Footer() {
           <h3 className="footer-heading">Explore</h3>
           <ul className="footer-list">
             <li className="footer-list-item">
-              <a href="/" className="footer-list-link">Home</a>
+              <a href="#top" className="footer-list-link">Home</a>
             </li>
             <li className="footer-list-item">
-              <a href="/" className="footer-list-link">About Us</a>
+              <a href="#about" className="footer-list-link">About Us</a>
             </li>
             <li className="footer-list-item">
-              <a href="/" className="footer-list-link">Rooms</a>
+              <a href="#rooms" className="footer-list-link">Rooms</a>
             </li>
             <li className="footer-list-item">
-              <a href="/" className="footer-list-link">Events</a>
+              <a href="#customers" className="footer-list-link">Customers</a>
             </li>
             <li className="footer-list-item">
-              <a href="/" className="footer-list-link">Customers</a>
-            </li>
-            <li className="footer-list-item">
-              <a href="/" className="footer-list-link">Contact</a>
+              <a href="#contact" className="footer-list-link">Contact</a>
             </li>
           </ul>
         </div>

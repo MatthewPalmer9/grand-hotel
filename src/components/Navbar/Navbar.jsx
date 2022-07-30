@@ -61,22 +61,19 @@ export default function Navbar() {
 
         <ul className="navigation-list">
           <li className="navigation-item">
-            <a href="/" className="navigation-link">Home</a>
+            <a href="#top" className="navigation-link">Home</a>
           </li>
           <li className="navigation-item">
-            <a href="/" className="navigation-link">About Us</a>
+            <a href="#about" className="navigation-link">About Us</a>
           </li>
           <li className="navigation-item">
-            <a href="/" className="navigation-link">Rooms</a>
+            <a href="#rooms" className="navigation-link">Rooms</a>
           </li>
           <li className="navigation-item">
-            <a href="/" className="navigation-link">Events</a>
+            <a href="#customers" className="navigation-link">Customers</a>
           </li>
           <li className="navigation-item">
-            <a href="/" className="navigation-link">Customers</a>
-          </li>
-          <li className="navigation-item">
-            <a href="/" className="navigation-link">Contact</a>
+            <a href="#contact" className="navigation-link">Contact</a>
           </li>
         </ul>
 

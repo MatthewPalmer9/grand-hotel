@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="header">
+    <header id="top" className="header">
       <div className="brand">
         <div>
           <img className="header-image" src="/img/crown.png" alt="Crown" />

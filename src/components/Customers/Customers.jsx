@@ -3,7 +3,7 @@ import CustomerCard from './CustomerCard'
 
 export default function Customers() {
   return (
-    <section className="customers">
+    <section id="customers" className="customers">
       <CommonHeader title="Our Customers"/>
 
       <p className="customers-paragraph">

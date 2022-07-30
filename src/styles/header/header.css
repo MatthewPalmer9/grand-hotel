@@ -28,7 +28,7 @@
   flex-direction: column;
   align-items: center;
   color: var(--white);
-  height: 60rem;
+  margin-top: 12rem;
   justify-content: center;
 }
 
