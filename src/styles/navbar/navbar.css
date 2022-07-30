@@ -163,7 +163,7 @@
 }
 
 .checkbox:checked ~ .navigation {
-  left: 8rem;
+  left: 6rem;
 }
 
 .checkbox:checked ~ .sidebar .line-1 {
