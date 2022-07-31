@@ -14,8 +14,10 @@ function App() {
 
     allLinks.forEach((link) => {
       link.addEventListener("click", function (e) {
-        e.preventDefault();
         const href = link.getAttribute("href");
+        if(!href.startsWith("http")) {
+          e.preventDefault();
+        }
     
         // Scroll back to top
         if (href === "#top")
