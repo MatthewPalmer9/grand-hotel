@@ -65,7 +65,7 @@
     flex-direction: column;
   }
   .banner {
-    margin-top: 16rem;
+    margin-top: 30rem;
   }
   .banner-heading {
     font-size: 5.6rem;
@@ -100,6 +100,9 @@
   }
   .customer-info .customer-paragraph-2 {
     font-size: 1.2rem;
+  }
+  .banner {
+    margin-top: 40rem;
   }
 }
 @media (max-width: 33em) {
