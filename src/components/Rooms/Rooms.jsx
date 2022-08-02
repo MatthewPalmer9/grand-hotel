@@ -31,10 +31,9 @@ export default function Rooms() {
           detail={"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex autem assumenda quaerat eveniet perspiciatis. Tempora, pariatur autem ad aliquid ea consectetur cumque aperiam dolores, provident ab minima? Error, maiores voluptas."}
           price={"$399"} 
         />
-
-        <div className="rooms-btn-wrapper">
-          <button className="rooms-btn">Check All Rooms</button>
-        </div>
+      </div>
+      <div className="rooms-btn-wrapper">
+        <button className="rooms-btn">Check All Rooms</button>
       </div>
     </section>
   )

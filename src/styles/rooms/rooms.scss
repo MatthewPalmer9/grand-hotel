@@ -19,16 +19,10 @@
 
 .rooms {
   margin-left: 6rem;
-}
-
-.rooms-cards-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
+  
   .rooms-btn-wrapper {
     text-align: center;
-
+  
     .rooms-btn {
       width: 24rem;
       padding: 1.6rem 1rem;
@@ -41,7 +35,7 @@
       cursor: pointer;
       box-shadow: 0 1.6rem 6rem rgba(0, 0, 0, 0.2);
       transition: all 0.2s;
-
+  
       &:hover {
         color: var(--white);
         background-color: var(--orange);
@@ -49,6 +43,14 @@
     }
   }
 }
+
+.rooms-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
 
 .room-card {
   max-width: 60rem;

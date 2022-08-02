@@ -17,16 +17,10 @@
 .rooms {
   margin-left: 6rem;
 }
-
-.rooms-cards-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.rooms-cards-wrapper .rooms-btn-wrapper {
+.rooms .rooms-btn-wrapper {
   text-align: center;
 }
-.rooms-cards-wrapper .rooms-btn-wrapper .rooms-btn {
+.rooms .rooms-btn-wrapper .rooms-btn {
   width: 24rem;
   padding: 1.6rem 1rem;
   margin: 4.4rem 0;
@@ -39,9 +33,15 @@
   box-shadow: 0 1.6rem 6rem rgba(0, 0, 0, 0.2);
   transition: all 0.2s;
 }
-.rooms-cards-wrapper .rooms-btn-wrapper .rooms-btn:hover {
+.rooms .rooms-btn-wrapper .rooms-btn:hover {
   color: var(--white);
   background-color: var(--orange);
+}
+
+.rooms-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .room-card {
