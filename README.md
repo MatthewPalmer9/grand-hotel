@@ -13,7 +13,7 @@ This project is hosted live [at this link](https://grand-hotel-silk.vercel.app/)
   - **Smooth Scroll**: The property which handles smooth scrolling in CSS isn't supported by all browsers. However, this problem is solved by using JavaScript. [See how I used it here](https://github.com/MatthewPalmer9/grand-hotel/blob/master/src/App.js)
 
 - **Interested in design decisions?**
-  - **Device Scaling**: There's 3 different ways to design responsively using media queries. The first method is by using absolute measurements, such as literal pixels (BAD!). The second involves understanding screen PPI (pixels per inch), setting `font-size: 62.5%`, and measuring almost EVERYTHING in rem units. This allows an app to scale to any device. [See here (Line 19)](https://github.com/MatthewPalmer9/grand-hotel/blob/master/src/styles/global/global.scss)
+  - **Device Scaling**: There's 2 different ways to design responsively using media queries. The first method is by using absolute measurements, such as literal pixels (BAD!). The second involves understanding screen PPI (pixels per inch), setting `font-size: 62.5%`, and measuring almost EVERYTHING in rem units. This allows an app to scale to any device. [See here (Line 19)](https://github.com/MatthewPalmer9/grand-hotel/blob/master/src/styles/global/global.scss)
   - **Fibonacci Sequence**: Developers often get hung up on what units to use when making design decisions. To save time, I use the Fibonacci Sequence `..., 2, 3, 5, 8, 13, 21, 34, ... etc.` as my default choice of measurement. These values are changed when polishing up the design, but generally you can expect me to have a method and reason for my pattern of development.
 
   # Contact
